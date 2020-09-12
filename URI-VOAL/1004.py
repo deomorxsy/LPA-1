@@ -1,4 +1,5 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
 '''
 Simple Product

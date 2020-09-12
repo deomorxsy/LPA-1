@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
 '''
 Extremely Basic - Read 2 variables, named A and B and make the sum of these two variables,
