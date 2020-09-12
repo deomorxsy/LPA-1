@@ -12,10 +12,11 @@ Output: Print the read time in the input file (seconds) converted in hours:minut
 
 def main():
 	duration = int(input()) #duration of an event in factory
-	
+	#Nex = 140153
+
 	horas = duration // 3600 #38
-	minutos = (duration % 3600) // 60
-	segundos = (duration % 3600) % 60
+	minutos = (duration % 3600) // 60 #(140153 % 3600) // 60 | 3353 // 60 = 55
+	segundos = (duration % 3600) % 60 #(140153 % 3600) % 60  | 3353 % 60 = 53
 
 
 	return print("{}:{}:{}".format(horas, minutos, segundos))
