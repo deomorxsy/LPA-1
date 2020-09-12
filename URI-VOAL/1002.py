@@ -22,4 +22,7 @@ raio = float(input()) #Python has built-in double precision values INSIDE float 
 pi = 3.14159
 A = pi * (raio ** 2)
 
-print("A={:.4f}".format(A)) # to print a float with decimal places in python you 
+print("A={:.4f}".format(A)) 
+# to print a float with decimal places in python you need to specify the
+# conversion field. The colon ':' starts it and following we have ".Nf"
+# which specifies the number of decimal places to be shown.
