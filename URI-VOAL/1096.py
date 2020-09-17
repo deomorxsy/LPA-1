@@ -16,14 +16,12 @@ def contador(coluna1, coluna2, accumulator, index):
 		accumulator -= 1
 
 def main():
-	I=[1, 3, 6, 9] #coluna1
+	I=[1, 3, 5, 7, 9] #coluna1
 	J=[5,6,7] #coluna2
 	acc = 2 #accumulator
 	
-	contador(I, J, acc, 0)
-	contador(I, J, acc, 1)
-	contador(I, J, acc, 2)
-	contador(I, J, acc, 3)
+	#for i in range(len(I))
+	return contador(I, J, acc, 0), contador(I, J, acc, 1), contador(I, J, acc, 2), contador(I, J, acc, 3), contador(I, J, acc, 4)
 
 if __name__ == '__main__':
 	main()
