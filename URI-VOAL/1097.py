@@ -43,7 +43,7 @@ while (index > 0):
 	print("I={} J={}".format(coluna1[3], (coluna2_J4[index-1] + coluna2_J4[index]) ))
 	index -= 2 #O que acontece quando coloco 1?
 
-
+#Coluna I e Coluna J5(15, 14 e 13)
 index = 5
 while (index > 0): 
 	print("I={} J={}".format(coluna1[4], (coluna2_J5[index-1] + coluna2_J5[index]) ))
