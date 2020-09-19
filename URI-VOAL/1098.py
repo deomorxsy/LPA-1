@@ -40,7 +40,11 @@ while (index <= 2):
 
 accumulator=0
 
-while (accumulator <= 3):
+while (accumulator <= 3): 
+	# at the end of the loop, (I=1.8 e J=4.8). Se a condição do while fosse "accumulator <= 4", isso
+	#printaria a última linha, porém, no formato FLOAT(que na realidade é uma String que representa
+	#um float), o que não seria lido pelo URI, que pede algo formatado como int (ou uma string que 
+	#emule esse int).
 	somador_col2 += 0.2
 	index = 0
 	while (index <= 2):
@@ -58,8 +62,10 @@ while (index <= 2):
 
 
 '''
+Expected output from coluna1 (I):
+
 0
-somador_col2
+0.2
 0.4
 0.6
 0.8
