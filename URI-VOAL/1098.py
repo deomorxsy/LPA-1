@@ -15,7 +15,7 @@ while (index <= 2):
 
 index = 0
 while (index <= 2):
-	print("I={:.1f} J={:.1f}".format( float(coluna1) + somador_col2, (float(coluna2[index]) + somador_col2)))
+	print("I={:.1f} J={:.1f}".format(float(coluna1) + somador_col2, (float(coluna2[index]) + somador_col2)))
 	index += 1
 
 #AUTOMATED LOOP 1
@@ -23,7 +23,7 @@ while (accumulator < 3):
 	somador_col2 += 0.2
 	index = 0
 	while (index <= 2):
-		print("I={:.1f} J={:.1f}".format( float(coluna1) + somador_col2, (float(coluna2[index]) + somador_col2)))
+		print("I={:.1f} J={:.1f}".format(float(coluna1) + somador_col2, (float(coluna2[index]) + somador_col2)))
 		index += 1
 	accumulator+=1
 	#DEBUGGER: print("\nsomador_col2={}\naccumulator={}\n===========\n".format(somador_col2, accumulator)) 
@@ -41,7 +41,6 @@ while (index <= 2):
 	print("I={} J={}".format( int(float(coluna1) + somador_col2), int((float(coluna2[index]) + somador_col2)) ))
 	index += 1
 
-'''
 
 accumulator=0
 
@@ -58,14 +57,19 @@ while (accumulator <= 3):
 	accumulator+=1
 	#DEBUGGER: print("\nsomador_col2={}\naccumulator={}\n===========\n".format(somador_col2, accumulator)) 
 
+somador_col2 += 0.2
+accumulator+=1
 
+
+#print("coluna1={}", float(coluna1) + round(somador_col2))
+#print("============")
 #STOP and print int coluna1 and coluna2.
 index = 0
 while (index <= 2):
-	print("I={} J={}".format( int(float(coluna1) + somador_col2), int((float(coluna2[index]) + somador_col2)) ))
+	print("I={} J={}".format( int(float(coluna1) + round(somador_col2)), int((float(coluna2[index]) + somador_col2)) ))
 	index += 1
 
-'''
+
 '''
 Expected output from coluna1 (I):
 
