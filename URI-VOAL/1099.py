@@ -51,9 +51,11 @@ for i in range(numero_testes):
 				somatorio += i;
 				print("somatorio depois da soma={}\n".format(somatorio));
 				#print("{}".format(casos[i]))#DEBUGGER
+				#acumulador[len(acumulador)-1] = somatorio
+				acumulador.append(somatorio)
 				break
-			acumulador.append(somatorio)
 		break
+
 	
 	somatorio=0
 	while (casos[0] > casos[1]): 
@@ -63,18 +65,21 @@ for i in range(numero_testes):
 				print("somatorio={}".format(somatorio))
 				somatorio += i
 				print("somatorio depois da soma={}\n".format(somatorio))
+				acumulador.append(somatorio)
 				break
 			#print("{}".format(i))#DEBUGGER
-			acumulador.append(somatorio)
 		#print("casos[0] não é maior que caso[1].") #DEBUGGER
 		break
 
 	
-
+for i in range(len(acumulador)-1):
+	while i == len(acumulador)-1:
+		acumulador[i] = somatorio
 
 print("=====================")
 for i in range(len(acumulador)):
 	print("{}".format(acumulador[i]))
+
 
 '''
 	if (casos[0] < casos[1]):
