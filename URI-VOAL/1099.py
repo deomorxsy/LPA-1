@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#date: 22/09/2020
 '''
 Sum of Consecutive Odd Numbers II
 

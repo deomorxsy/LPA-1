@@ -1,5 +1,6 @@
 #!/usr/env/python3
 # -*- coding: utf-8 -*-
+#date: 12/09/2020
 '''
 Average 1
 

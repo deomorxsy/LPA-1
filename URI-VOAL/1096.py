@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#date: 17/09/2020
 '''
 Sequence IJ 2
 

@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#date: 22/09/2020
 '''
 for c in range(0,10+1):
 	while c < 10+1 and c % 3 != 0:

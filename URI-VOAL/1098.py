@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#date: 19/09/2020
 coluna1 = '0' #I
 coluna2 = '123'
 

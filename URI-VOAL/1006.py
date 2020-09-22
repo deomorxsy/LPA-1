@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 '''
+#date: 12/09/2020
+
 Average 2
 
 Read three values (variables A, B and C), which are the three student's grades. Then, calculate

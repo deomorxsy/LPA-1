@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 '''
+#date: 18/09/2020
 Sequence IJ 3
 
 Make a program that prints the sequence like the following exemple.
