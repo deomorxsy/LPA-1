@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#date: 23/09/2020
 '''
  URI Online Judge | 1114
 Fixed Password
@@ -33,3 +33,4 @@ while switch == 1:
 		print("Acesso Permitido")
 		switch = 0
 		break
+
