@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+#date: 01/10/2020
+#INCOMPLETO 
+#modelo torre de hanói
 y = 5
 x = 3
 #maior = 0

@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+#date: 01/10/2020
+#INCOMPLETO
 
 age = int(input())#in days
 

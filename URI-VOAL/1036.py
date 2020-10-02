@@ -1,5 +1,5 @@
 #!usr/bin/python3
-
+#date: 01/10/2020
 '''
 ? > 0 → a função do 2º grau possui duas raízes reais distintas.
 ? = 0 → a função do 2º grau possui apenas uma raiz real.
