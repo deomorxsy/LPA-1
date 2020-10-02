@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#date: 02/10/2020
 
 entrada = float(input())
 
