@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#date: 01/10/2020
 def main():
 	'''
 	Then if B is greater than C and D is greater than A and
