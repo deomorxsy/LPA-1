@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#date: 08/10/2020 00:09
 filo = input()
 classe = input()
 dieta = input()

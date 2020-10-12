@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#date: 07/10/2020 23:54
 salary = float(input())
 reajuste = 0
 if salary >= 0 and salary <= 400.00:

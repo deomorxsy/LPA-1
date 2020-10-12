@@ -20,3 +20,4 @@ for i in range(testes):
 
 for i in saidas:
 	print(i)
+

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#date: 07/10/2020 00:24
 tests = int(input())
 somatorio = 0
 accumulator = []
