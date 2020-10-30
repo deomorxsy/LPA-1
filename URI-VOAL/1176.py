@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#date: 30/10/2020
 num_casos = int(input())
 th_element = []
 listado = [0, 1]

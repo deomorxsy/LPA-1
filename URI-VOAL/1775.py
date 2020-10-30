@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#date: 30/10/2020
 numbers = [] #lista de entrada
 srebmun = [] #lista auxiliar
 
