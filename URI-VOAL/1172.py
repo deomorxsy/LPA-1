@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#date: 29/10/2020
 
 lista = []
 
